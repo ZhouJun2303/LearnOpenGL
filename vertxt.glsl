@@ -1,8 +1,6 @@
 #version 330 core
 layout (location = 0) in vec3 aPos;
-layout (location = 1) in vec3 aColor;
-layout (location = 2) in vec2 aTexCoord;
-out vec3 ourColor;
+layout (location = 1) in vec2 aTexCoord;
 out vec3 ourPosition;
 out vec2 TexCoord;
 uniform vec3 offset;
@@ -15,7 +13,6 @@ uniform mat4 projection;
 void main()
 {
 	gl_Position = projection * view * model * vec4(offset.x + aPos.x, offset.y + aPos.y, aPos.z, 1.0);
-	ourColor = vec3(aColor.x + tempColor.x,aColor.y + tempColor.y,aColor.z + tempColor.z);
 	ourPosition = vec3(offset.x + aPos.x, offset.y + aPos.y, offset.z +  aPos.z);
 	TexCoord = aTexCoord;
 };
