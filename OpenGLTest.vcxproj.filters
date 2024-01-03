@@ -60,6 +60,9 @@
     <ClCompile Include="10-Camera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="11-FreeCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\document\include\Shader\Shader.h">
