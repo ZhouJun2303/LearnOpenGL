@@ -63,6 +63,9 @@
     <ClCompile Include="11-FreeCamera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="12-glUniform1i.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\document\include\Shader\Shader.h">
@@ -82,6 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
