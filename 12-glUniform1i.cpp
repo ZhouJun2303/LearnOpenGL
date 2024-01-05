@@ -68,9 +68,9 @@ int main()
 	//注册窗口大小更改回调
 	glfwSetFramebufferSizeCallback(window, framebuffer_seize_callback);
 	//注册鼠标回调
-	//glfwSetCursorPosCallback(window, mouseCallBack);
+	glfwSetCursorPosCallback(window, mouseCallBack);
 
-	//glfwSetScrollCallback(window, mouseScrollCallBack);
+	glfwSetScrollCallback(window, mouseScrollCallBack);
 	glEnable(GL_DEPTH_TEST);
 
 	//隐藏鼠标

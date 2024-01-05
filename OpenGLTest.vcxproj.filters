@@ -16,55 +16,58 @@
     <Filter Include="Shader">
       <UniqueIdentifier>{b835a4d6-8cf6-4ad9-907a-286d3e80b60b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\01-gettingStarted">
+      <UniqueIdentifier>{a1548727-c24b-47a0-accf-5feabd87246d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OpenGLTest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\glad\src\glad.c">
       <Filter>头文件</Filter>
     </ClCompile>
     <ClCompile Include="01-HelloWindow.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="02-HelloTriangle02.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="03-Uniform.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="04-Gradient.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="04-splightGradient.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="05-Textures.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="06-GLM.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="07-TransAndScale.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="08-Perspective.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="09-3DCube.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="10-Camera.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="11-FreeCamera.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
     <ClCompile Include="12-glUniform1i.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01-gettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件\01-gettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLTest.cpp">
+      <Filter>源文件\01-gettingStarted</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
